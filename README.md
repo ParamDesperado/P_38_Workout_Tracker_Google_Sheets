@@ -29,8 +29,7 @@ The script will then log each exercise into your Google Sheet with:
 
 ## Installation
 
-1. Clone the repository
-2.Create a .env file in the root directory with the following:
+1.Create a .env file in the root directory with the following:
 APP_ID=your_nutritionix_app_id
 API_KEY=your_nutritionix_api_key
 SHEET_ENDPOINT=your_sheety_endpoint
@@ -40,14 +39,10 @@ HEIGHT_CM=175
 WEIGHT_KG=70
 AGE=25
 
-Technologies Used
+## Technologies
 
 Python 3
-
 Requests – For making HTTP requests.
-
 Nutritionix API – For exercise recognition and calorie calculation.
-
 Sheety API – For Google Sheet integration.
-
 dotenv – For managing environment variables securely.
